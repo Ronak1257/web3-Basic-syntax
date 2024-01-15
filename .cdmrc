@@ -1,3 +1,2 @@
-terminal-one: yarn install && node preview/server.js
-live-reload-browser: false
+terminal-one: yarn install && npm install hardhat
 tabs: ['contracts/Token.sol']
