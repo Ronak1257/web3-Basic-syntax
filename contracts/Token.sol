@@ -2,9 +2,8 @@
 pragma solidity ^0.8.4;
 
 contract Token {
-    //create uint variable with initial value of 10
+    uint a=10;
     function getVal() public view returns (uint) {
-        //return that variable with return keyword suppose your variable is a
-        //return a
+        return a;
     }
 }
