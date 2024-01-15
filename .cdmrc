@@ -1,3 +1,1 @@
-terminal-one: yarn install && node preview/server.js
-live-reload-browser: false
 tabs: ['contracts/Token.sol']
