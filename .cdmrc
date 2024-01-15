@@ -1,2 +1,2 @@
-terminal-one: yarn install && npm install hardhat
+terminal-one: yarn install && npm install hardhat && npx hardhat node
 tabs: ['contracts/Token.sol']
