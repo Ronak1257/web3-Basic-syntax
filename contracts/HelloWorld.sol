@@ -2,11 +2,9 @@
 pragma solidity ^0.8.4;
 
 contract SimpleStorage {
-    uint256 storedData;
-    function set(uint x) public {
-        storedData = x;
-    }
-    function get() public view returns (uint) {
-        return storedData;
+    //create uint variable with initial value of 10
+    function getVal() public view returns (uint) {
+        //return that variable with return keyword suppose your variable is a
+        //return a
     }
 }
